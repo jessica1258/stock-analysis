@@ -5,7 +5,9 @@ The purpose of this analysis is to analyze stocks for Steve's parents. It is a p
 
 ## Results
 
-For the twelve stocks evaluated, all had trading volume of 80 million shares or more during 2018 which is sufficient transactions to ensure outlier prices do not result in incorrect conclusions. Of the twelve stocks, two had positive results. These are ENPH and RUN, which returned 81.9% and 84.0%, respectively.
+For the twelve stocks evaluated, all had trading volume of 80 million shares or more during 2018 which is sufficient transactions to ensure outlier prices do not result in incorrect conclusions. Of the twelve stocks, two had positive results. These are ENPH and RUN, which returned 81.9% and 84.0%, respectively. The full list of results can be found in the table below.
+
+![Refactored Stock Analylsis](https://github.com/jessica1258/stock-analysis/blob/main/VBA_Challenge_2018_Refactored_Output.png)
 
 These results were obtained using VBA code that was design to add volume for each individual stock over for all data for a year selected, 2018 in this case. In addition the annual return was calculated by calculating the percentage change from the closing price on the first trading day of the year compared to the closing price on the last trading day of the year.  In the final, refactored code, this was done using a for loop that aggregated volume and identified the first and last closing prices for the year by cycling the for loop through each row of data for all variables in all arrays. This code is shown below.
 
